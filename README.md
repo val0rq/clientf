@@ -17,6 +17,4 @@ A lightweight Fabric client mod providing essential HUD utilities without the bl
 *   **F8**: Toggle FPS/Coords.
 
 ## Building
-1.  Clone repository.
-2.  Run `./gradlew build`.
-3.  Find jar in `build/libs`.
+**GitHub Actions**: Push to GitHub, and the Actions tab will build it automatically (Gradle 9.2).

@@ -47,9 +47,6 @@ public class HudRenderer {
         if (config.showMinimap) {
             renderMinimap(context, client, config);
         }
-        
-        // 4. Waypoints (Simple render on screen if looking nearby could go here, 
-        // but for lightweight HUD we just rely on Minimap for now)
     }
 
     private static void renderMinimap(DrawContext context, MinecraftClient client, ModConfig config) {
