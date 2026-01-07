@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "mayhemclient",
+  "version": "${version}",
+  "name": "Mounts of Mayhem HUD",
+  "description": "Lightweight FPS, Coordinates, Minimap and Waypoints mod for 1.21.11",
+  "authors": [
+    "AI_Generator"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/YourName/MayhemClient"
+  },
+  "license": "MIT",
+  "icon": "assets/mayhemclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.mayhem.client.ClientInitializer"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
